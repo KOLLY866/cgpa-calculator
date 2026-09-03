@@ -1,0 +1,27 @@
+{
+  "name": "student-cgpa-calculator",
+  "version": "1.0.0",
+  "description": "Student CGPA Calculator with Vercel Speed Insights",
+  "main": "script.js",
+  "scripts": {
+    "build": "esbuild speed-insights.js --bundle --outfile=dist/speed-insights.bundle.js --format=iife",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOLLY866/cgpa-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KOLLY866/cgpa-calculator/issues"
+  },
+  "homepage": "https://github.com/KOLLY866/cgpa-calculator#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
