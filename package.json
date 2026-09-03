@@ -1,0 +1,16 @@
+{
+  "name": "student-cgpa-calculator",
+  "version": "1.0.0",
+  "description": "Student CGPA Calculator with Vercel Web Analytics",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required for static site'"
+  },
+  "keywords": ["cgpa", "calculator", "student", "gpa"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1"
+  }
+}
