@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container > p {
+    text-align: center;
+    margin: 10px 0 25px;
+    color: #666;
+}
+
+.course-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #222;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #f0f0f0;
+}
+
+.calculate {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.result {
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+    background: #f4f6f8;
+    border-radius: 10px;
+}
+
+.result h1 {
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+@media (max-width: 600px) {
+    .course-input {
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}.reset {
+    width: 100%;
+    margin-top: 10px;
+    background: #777;
+}.student-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.student-info input,
+.student-info select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .student-info {
+        grid-template-columns: 1fr;
+    }
+}.site-header {
+    text-align: center;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.site-header p {
+    margin-top: 8px;
+    font-size: 16px;
+    opacity: 0.8;
+}.result {
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.result h2 {
+    margin-bottom: 5px;
+}
+
+.result h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.student-result {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.student-result p {
+    margin: 8px 0;
+}
+
+#cgpa {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
